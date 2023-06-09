@@ -54,6 +54,9 @@ img {
   color: #000000;
   text-transform: uppercase;
 }
+.escritorio {
+  opacity: 70%;
+}
 .conteudo-ul {
   display: flex;
   gap: 20px;
@@ -78,7 +81,7 @@ img {
 }
 .conteudo-item::before {
   content: "";
-  background-color: #e21;
+  background-color: rgb(17, 131, 238);
   width: 100px;
   height: 100px;
   position: absolute;
@@ -90,6 +93,7 @@ img {
   height: 50px;
   margin-top: 25px;
   margin-bottom: -20px;
+  
 }
 .conteudo-item p {
   font-size: 0.7rem;
@@ -103,9 +107,11 @@ img {
   gap: 20px;
   padding: 20px;
   margin-top: 60px;
-  margin-right: 300px;
-  margin-left: 300px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 20px;
   position: relative;
+  border-radius: 5px;
 }
 .nosso-servicos-item {
   display: grid;
@@ -119,7 +125,7 @@ img {
   border-left: 6px solid transparent;
 }
 .nosso-servicos-item:hover {
-  border-color: #e21;
+  border-color: rgb(17, 131, 238);
 }
 .nosso-servicos-item img {
   height: 40px;
