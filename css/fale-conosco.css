@@ -54,6 +54,26 @@ img {
   color: #000000;
   text-transform: uppercase;
 }
+.menu a:hover {
+  background: rgb(16, 139, 255);
+  color: #fff;
+}
+.menu li {
+  position: relative;
+}
+.menu li:hover > .sub-menu {
+  display: block;
+}
+.sub-menu {
+  display: none;
+  position: absolute;
+  min-width: 150px;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.5);
+}
+.sub-menu .sub-menu {
+  top: 0;
+  right: 100%;
+}
 .fale-conosco {
   margin: 0px;
   width: 100%;
