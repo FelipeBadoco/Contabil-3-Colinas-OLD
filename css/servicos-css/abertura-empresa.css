@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: roboto, sans-serif;
   margin: 0px;
   padding: 0px;
   display: grid;
@@ -30,7 +30,7 @@ img {
   max-width: 100%;
   display: block;
   position: relative;
- }
+}
 .header {
   background-color: #f5f5f5;
   align-items: center;
@@ -74,8 +74,46 @@ img {
   top: 0;
   right: 100%;
 }
+.banner {
+  width: auto;
+  height: auto;
+  /* z-index: -1; */
+  /* position: block; */
+}
+.banner h2 {
+  position: absolute;
+  top: 210px;
+  left: 50px;
+  margin: auto;
+  width: 280px;
+  color: #fff;
+}
+.conteudo-abertura-emp {
+  display: flex;
+}
 
-.rodape {
+.menu-lateral {
+  padding: 30px;
+  margin-left: 50px;
+  margin-top: 60px;
+  height: 200px;
+  width: 230px;
+  /* background-color: tomato; */
+  position: relative;
+  /* border: 1px solid; */
+}
+.menu-lateral p {
+  padding: 13px;
+  border: 1px solid;
+  position: relative;
+}
+.abertura-emp-ul {
+  margin-top: 90px;
+  padding: 20px;
+  background-color: aqua;
+}
+
+/* .rodape {
   background-color: #f5f5f5;
 }
 .rede-menu {
@@ -103,4 +141,4 @@ img {
   text-align: center;
   font-size: 0.7rem;
   line-height: 1.3;
-}
+} */
