@@ -3,6 +3,8 @@ body {
   margin: 0px;
   padding: 0px;
   display: grid;
+  /* background: #000000;
+  color: #f5f5f5; */
 }
 
 ul {
@@ -21,8 +23,8 @@ h3 {
 p {
   font-size: 1.25rem;
   line-height: 1.3;
+  font-size: medium;
 }
-
 a {
   text-decoration: none;
 }
@@ -30,7 +32,7 @@ img {
   max-width: 100%;
   display: block;
   position: relative;
- }
+}
 .header {
   background-color: #f5f5f5;
   align-items: center;
@@ -74,7 +76,230 @@ img {
   top: 0;
   right: 100%;
 }
+.banner {
+  z-index: -1;
+}
+.text {
+  right: 0;
+  left: 0;
+  margin-left: 80px;
+  margin-top: 40px;
+  margin-right: 80px;
+}
+.abertura-emp {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
+.abertura-emp-ul {
+  background-color: #f5f5f5;
+  padding: 20px 20px;
+  margin-bottom: 50px;
+  position: relative;
+  z-index: -1;
+}
+.abertura-emp-ul::after {
+  content: "";
+  position: absolute;
+  margin-top: 45px;
+  width: 700px;
+  height: 3px;
+  left: 20%;
+  background-color: rgb(17, 131, 238);
+}
+.abertura-emp-ul h2::before {
+  content: "";
+  position: absolute;
+  margin-top: 55px;
+  width: 100px;
+  height: 2px;
+  background-color: rgb(17, 131, 238);
+}
+.abertura-emp-ul h2::after {
+  content: "";
+  position: absolute;
+  margin-top: 35px;
+  margin-left: -315px;
+  width: 50px;
+  height: 2px;
+  background-color: rgb(17, 131, 238);
+}
+.abertura-emp-item {
+  padding: 5px;
+  margin-left: 20px;
+  list-style: inside;
+}
+.consultoria {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
+.consultoria-ul {
+  background-color: #f5f5f5;
+  padding: 20px 20px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.consultoria-ul::after {
+  content: "";
+  position: absolute;
+  margin-top: 45px;
+  width: 700px;
+  height: 3px;
+  left: 20%;
+  background-color: rgb(17, 131, 238);
+}
 
+.consultoria-ul h2::before {
+  content: "";
+  position: absolute;
+  margin-top: 55px;
+  width: 100px;
+  height: 2px;
+  background-color: rgb(17, 131, 238);
+}
+.consultoria-ul h2::after {
+  content: "";
+  position: absolute;
+  margin-top: 35px;
+  margin-left: -174px;
+  width: 50px;
+  height: 2px;
+  background-color: rgb(17, 131, 238);
+}
+.consultoria-item {
+  padding: 5px;
+  margin-left: 20px;
+  list-style: inside;
+}
+.conteudo-contabil {
+  background-color: #f5f5f5;
+  padding: 20px 20px;
+  position: relative;
+}
+
+.conteudo-contabil h2 {
+  text-transform: uppercase;
+}
+.conteudo-contabil h2::before {
+  content: "";
+  position: absolute;
+  margin-top: 27px;
+  width: 100px;
+  height: 2px;
+  background-color: rgb(17, 131, 238);
+}
+.conteudo-contabil h2::after {
+  content: "";
+  position: absolute;
+  margin-top: 35px;
+  margin-left: -124px;
+  width: 50px;
+  height: 2px;
+  background-color: rgb(17, 131, 238);
+}
+.contabil-ul {
+  background-color: #f5f5f5;
+  padding: 20px 20px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.contabil-ul::after {
+  content: "";
+  position: absolute;
+  margin-top: 45px;
+  width: 700px;
+  height: 3px;
+  left: 20%;
+  background-color: rgb(17, 131, 238);
+}
+.contabil-item {
+  padding: 5px;
+  margin-left: 20px;
+  list-style: inside;
+}
+.conteudo-dp {
+  background-color: #f5f5f5;
+  padding: 20px 20px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.conteudo-dp::after {
+  content: "";
+  position: absolute;
+  margin-top: 45px;
+  width: 700px;
+  height: 3px;
+  left: 20%;
+  background-color: rgb(17, 131, 238);
+}
+.conteudo-dp h2 {
+  text-transform: uppercase;
+}
+.conteudo-dp h2::before {
+  content: "";
+  position: absolute;
+  margin-top: 27px;
+  width: 100px;
+  height: 2px;
+  background-color: rgb(17, 131, 238);
+}
+.conteudo-dp h2::after {
+  content: "";
+  position: absolute;
+  margin-top: 35px;
+  margin-left: -320px;
+  width: 50px;
+  height: 2px;
+  background-color: rgb(17, 131, 238);
+}
+.dp-ul {
+  padding: 20px 20px;
+}
+.dp-item {
+  padding: 5px;
+  margin-left: 20px;
+  list-style: inside;
+}
+.conteudo-fiscal {
+  background-color: #f5f5f5;
+  padding: 20px 20px;
+  position: relative;
+}
+.conteudo-fiscal h2 {
+  text-transform: uppercase;
+}
+.conteudo-fiscal h2::before {
+  content: "";
+  position: absolute;
+  margin-top: 27px;
+  width: 100px;
+  height: 2px;
+  background-color: rgb(17, 131, 238);
+}
+.conteudo-fiscal h2::after {
+  content: "";
+  position: absolute;
+  margin-top: 35px;
+  margin-left: -276px;
+  width: 50px;
+  height: 2px;
+  background-color: rgb(17, 131, 238);
+}
+.fiscal {
+  margin-bottom: 50px;
+}
+.fiscal-ul {
+  background-color: #f5f5f5;
+  padding: 20px 20px;
+  margin-bottom: 50px;
+}
+
+.fiscal-item {
+  padding: 5px;
+  margin-left: 20px;
+  list-style: inside;
+}
 .rodape {
   background-color: #f5f5f5;
 }
